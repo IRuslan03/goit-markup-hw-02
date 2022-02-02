@@ -49,7 +49,7 @@ body {
 .item:not(:last-child){
     margin-right: 50px;
 }
-.contacts-item {
+.contacts-item:not(:last-child){
     margin-right: 50px;
 }
 
