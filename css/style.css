@@ -26,7 +26,9 @@ body {
 }
 
 /* header */
-
+.header {
+    border: 1px solid #ECECEC;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -84,6 +86,13 @@ body {
 .contacts-link {
     color: var(--secondary-color);
 }
+
+/* hover and focus */
+
+.address-item:hover,
+.address-item:focus,
+.address-links:focus,
+.address-links:hover,
 .link:hover,
 .contacts-link:hover,
 .link:focus,
