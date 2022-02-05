@@ -142,6 +142,9 @@ body {
 
 /* advantage */
 
+.advantege-section {
+    padding-bottom: 0px;
+}
 .advantage-list{
     display: flex;
     margin-right: -30px;
@@ -186,6 +189,7 @@ margin-right: 30px;
  /* team */
 .section-team {
     background-color: var(--team-back-color);
+    
 }
  .team-list {
      display: flex;
@@ -195,10 +199,14 @@ margin-right: 30px;
      background-color: var(--white-color);
      flex-basis: calc(100% / 4 - 30px);
      margin-right: 30px;
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14),
+     0px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 0px 0px 4px 4px;
+
  }
 
 .team-name {
-    padding-top: 30px;
     padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -208,11 +216,13 @@ margin-right: 30px;
 }
 .team-position {
     color: var(--secondary-color);
-    padding-bottom: 30px;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
+}
+.team-write {
+    padding: 30px 0;
 }
  
 /* footer */
@@ -308,7 +318,7 @@ margin-right: 30px;
     background: var(--white-color)
 }
 .card-name {
-    padding: 20px 24px 4px 24px;
+    margin-bottom: 4px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -317,7 +327,6 @@ margin-right: 30px;
     color: var(--main-color)
 }
 .card-filter {
-    padding: 4px 24px 20px 24px;
     font-weight: normal;
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -325,6 +334,7 @@ margin-right: 30px;
     color:var(--secondary-color)
 }
 .card-write {
+    padding: 20px 24px;
    background:var(--white-color);
    border: 1px solid var(--border-color);
    box-sizing: border-box;
